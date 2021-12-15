@@ -32,12 +32,12 @@ EOF
 
   s.add_runtime_dependency("thor")
   s.add_runtime_dependency("highline", "~> 1.7.3")
-  s.add_runtime_dependency("json", "~> 1.8.3")
+  s.add_runtime_dependency("json", ">= 2.3.0")
   s.add_runtime_dependency("launchy", "~> 2.4")
-  s.add_runtime_dependency("addressable", "~> 2.3")
+  s.add_runtime_dependency("addressable", ">= 2.8.0")
   s.add_runtime_dependency("tddium_client", "~> 0.6", ">= 0.6.5")
   s.add_runtime_dependency("nayutaya-msgpack-pure", "~> 0.0", ">= 0.0.2")
-  s.add_runtime_dependency("public_suffix", "~> 1.4.6 ")
+  s.add_runtime_dependency("public_suffix", "< 5.0 ")
 
   s.add_development_dependency("aruba", "0.4.6")
   s.add_development_dependency("rdiscount", "1.6.8")
